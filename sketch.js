@@ -1,7 +1,7 @@
 let font;
 
 function setup() {
-    createCanvas(1500, 1100);
+    createCanvas(1800, 1100);
     
     font = loadFont("inter.ttf");
     table = loadTable("data.csv", "csv", "header");
