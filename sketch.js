@@ -17,7 +17,6 @@ function draw() {
 
     // within each row, get the properties of interest -- you can add more lines here!
     var role = rows[r].getString("ROLE");
-    var happiness = rows[r].getString("HAPPINESS");
     var optimism = rows[r].getString("OPTIMISM");
     var age = rows[r].getString("AGE");
     var gender = rows[r].getString("GENDER");
