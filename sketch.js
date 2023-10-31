@@ -44,10 +44,10 @@ function draw() {
 
     // add hover text
     if (
-      mouseX > xpos - circleSize - 5 &&
-      mouseX < xpos + circleSize - 5 &&
-      mouseY > ypos - circleSize - 5 &&
-      mouseY < ypos + circleSize - 5
+      mouseX > xpos - circleSize &&
+      mouseX < xpos + circleSize &&
+      mouseY > ypos - circleSize &&
+      mouseY < ypos + circleSize
     ) {
       textXpos = xpos - 5;
       textYpos = ypos + circleSize / 2 + 30;
